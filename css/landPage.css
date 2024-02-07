@@ -1,0 +1,71 @@
+.land-page-container {
+  display: flex;
+  flex-direction: column;
+  color: #ddd;
+  max-width: 80%;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 120px 150px 50px 150px;
+}
+
+.presentation {
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.description {
+  font-size: 1.3rem;
+  line-break: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.flag {
+  width: 27px;
+}
+
+.full-stack {
+  border-radius: 15px;
+  width: 50%;
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+
+.full-stack {
+  animation: pulse 2.5s infinite ease-in-out alternate;
+}
+@keyframes pulse {
+  from { transform: scale(0.9); }
+  to { transform: scale(1); }
+}
+
+.tech-stack { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 150px;
+}
+
+.tech-stack h2 {
+  padding-right: 20px;
+  font-size: 1.8rem;
+}
+
+.tech-stack h2 span {
+  margin: 0 40px;
+}
+
+.tech-stack img {
+  height: 60px;
+  width: 60px;
+  margin-right: auto;
+}
