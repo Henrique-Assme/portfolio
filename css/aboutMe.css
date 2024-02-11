@@ -1,0 +1,27 @@
+.about-me-container {
+  display: flex;
+  width: 80%;
+  margin: 50px auto;
+  color: #ddd;
+  align-items: center;
+}
+
+.description-container {
+  width: 50%;
+}
+
+.description-container h2 {
+  font-size: 4rem;
+}
+
+.description-container p {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.profile-picture {
+  width: 20%;
+  border-radius: 25px;
+  border: 2px solid #ddd;
+  margin: 0 auto;
+}
