@@ -15,7 +15,7 @@
 
 .presentation {
   padding: 20px;
-  margin-right: 10px;
+  margin: 0 auto;
 }
 
 .title {
@@ -38,6 +38,7 @@
 .full-stack {
   border-radius: 15px;
   width: 50%;
+  margin: 0 auto;
   animation: pulse 1s infinite ease-in-out alternate;
 }
 
@@ -53,7 +54,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0 150px;
+  margin: 0 auto;
 }
 
 .tech-stack h2 {
